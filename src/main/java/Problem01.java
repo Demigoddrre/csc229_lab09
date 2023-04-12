@@ -46,6 +46,10 @@ public class Problem01 {
     }
     
    // also discuss T(n) = 3 T(n/4) + n
-    
+    //Func1 and Func2 have the same time complexity of O(n log n), both contain two nested
+    //loops with the inner loop iterating log n times. The space complexity for both is also O(1) due 
+    //to only using a constant amount of memory to store loop counters and temporary variables.
+    //Additionally, the recurrence relation T(n) = 3T(n/4)+n has a time complexity of O (nlogn) by Master theorem,
+    //while its space complexity is slightly higher at O (log n).
     
 }
